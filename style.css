@@ -1,0 +1,145 @@
+h1{
+    color:rgb(0, 253, 240);
+       padding-left:200px;
+}
+
+ 
+
+.header{
+
+    background-image:url("abc.jpg");
+    display:flex;
+    justify-content: space-between;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+
+}
+
+.grid{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-image:url("back.jpg");
+    color:aliceblue;
+
+  
+
+}
+
+.footer{
+   display: flex;
+   justify-content: flex-end;
+   background-image: url("abc.jpg");
+}
+
+
+h2{
+    color:rgba(255, 166, 0, 0.795);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left:200px;
+}
+
+.item{
+
+    border: 10px solid #24eb3575;
+    margin:20px;
+    background-image: url("abc.jpg");
+    position:relative;
+    color:pink;
+    font-size: 40px;
+    font-style: italic;
+
+}
+
+.item:hover{
+    border-radius: 70%;
+}
+
+.menu{
+    display:flex;
+    color:antiquewhite;
+    justify-content: flex-end;
+    margin-right:50px;
+}
+
+
+
+.black{
+    background-image: url("abc.jpg");
+}
+
+
+a:link{
+    color:aqua;
+}
+
+
+a:visited{
+    color:rgb(228, 38, 70);
+}
+
+.item p{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-50%);
+    opacity:0;
+}
+
+
+.item:hover p{
+    opacity:1;
+  
+}
+
+.item:hover img{
+    opacity:0.33;
+    filter: grayscale(40%);
+   
+    
+}
+
+img:hover{
+    border-radius: 70%;
+}
+
+
+table {
+	font-family : Helvetica;
+	font-size : 100%;
+  font-weight: bold;
+
+  padding-left:200px;
+
+}
+ h1 {
+   color: #ea503f;
+   font-family: Arial;
+ }
+
+
+
+ .bg {
+    /* The image used */
+    background-image: url("/index1.html");
+  
+    /* Full height */
+    height: 100%; 
+  
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+
+
+ .block {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #a5eef3;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+  }
